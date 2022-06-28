@@ -1,0 +1,269 @@
+
+.cont{
+    padding-top: 40px;
+    text-align: justify;
+    font-size: 1em;
+}
+
+.fas{
+    color: #5851DB; 
+}
+
+.card ,nav, .footer,tr,video{
+    border-radius: 3px;
+    transition: all 200ms ease-out;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.2);
+}
+.card{
+    background: radial-gradient(#1fe4f5, #3fbafe);
+}
+
+tr,th,td{
+    border:0.1px solid silver;
+    text-align: center;
+}
+
+.nav-item{
+margin-left: 10px; 
+}
+.navbar{
+    background: radial-gradient(#f51f1f, #fe3f3f) !important;
+}
+.navbar-brand{
+    color: white !important;
+    text-shadow: 1px 1px 2px rgb(216, 3, 3), 0 0 50px black, 0 0 5px white;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 1.7em;
+    text-transform: capitalize;
+    text-align: center;
+}
+.btn-light{
+    background-color: #BB0606 !important;
+    color: white !important;
+}
+.btn-light:hover {
+    background-color: white !important;
+    color: black !important;
+}
+.brand{
+    text-shadow: 1px 1px 2px red, 0 0 50px black, 0 0 5px white;
+}
+
+.rounded-circle{
+    margin-top: -2.5px;
+}
+
+.card-header{
+    font-weight: bolder;
+    font-size: 1.5em;
+    color: white;
+    background-color: #BB0606 !important ;
+}
+
+.dark-mode {
+  background-color: black;
+  color: black;
+}
+
+form{
+    padding-top: 20px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.footer{
+    padding: 14px;
+}
+
+.alert{
+    border:1px solid #5cb85c;
+    border-left: 5px solid #5cb85c;
+    border-right: 5px solid #5cb85c;
+}
+
+.error{
+    border:1px solid red;
+    border-left: 5px solid red;
+    border-right: 5px solid red;
+}
+
+
+
+.main-container {
+    padding: 30px;
+  }
+  
+  /* HEADING */
+  
+  .heading {
+    text-align: center;
+  }
+  
+  .heading__title {
+    font-weight: 600;
+  }
+  
+  .heading__credits {
+    margin: 10px 0px;
+    color: #888888;
+    font-size: 25px;
+    transition: all 0.5s;
+  }
+  
+  .heading__link {
+    text-decoration: none;
+  }
+  
+  .heading__credits .heading__link {
+    color: inherit;
+  }
+  
+  /* CARDS */
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card1 {
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    min-height: 200px;
+    display: grid;
+    grid-template-rows: 20px 50px 1fr 50px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+  }
+  
+  .card:hover {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+    transform: scale(1.01);
+  }
+  
+  .card__link,
+  .card__exit,
+  .card__icon {
+
+    position: relative;
+    text-decoration: none;
+    color: rgba(7, 1, 1, 0.9);
+  }
+ 
+  .card__link::after {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: all 0.5s;
+  }
+  
+  .card__link:hover::after {
+    width: 100%;
+  }
+  
+  .card__exit {
+    grid-row: 1/2;
+    justify-self: end;
+  }
+  
+  .card__icon {
+    grid-row: 2/3;
+    font-size: 30px;
+  }
+  
+  .card__title {
+    grid-row: 3/4;
+    font-size: 1.5rem !important;
+    font-weight: 200;
+    color: #ffffff;
+  }
+  
+  .card__apply {
+    grid-row: 4/5;
+    align-self: center;
+  }
+  
+  /* CARD BACKGROUNDS */
+  
+  .card-1 {
+    background: radial-gradient(#1fe4f5, #3fbafe);
+  }
+  
+  .card-2 {
+    background: radial-gradient(#fbc1cc, #fa99b2);
+  }
+  
+  .card-3 {
+    background: radial-gradient(#76b2fe, #b69efe);
+  }
+  
+  .card-4 {
+    background: radial-gradient(#60efbc, #58d5c9);
+  }
+  
+  .card-5 {
+    background: radial-gradient(#f588d8, #c0a3e5);
+  }
+  .card-6 {
+    background: radial-gradient(#88f5b5, #a3e5b9);
+  }
+  .card-7 {
+    background: radial-gradient(#eef588, #e4e5a3);
+  }
+  .card-8 {
+    background: radial-gradient(#f58888, #e5a3a3);
+  }
+  
+  /* RESPONSIVE */
+  
+  @media (max-width: 1600px) {
+    .cards {
+      justify-content: center;
+    }
+  }
+
+.mar{
+  margin-top: 50px;
+}
+
+.btnsub{
+  background-color: green ;
+}
+
+.btnreq{
+  background-color: blue;
+}
+
+.btnreq:hover{
+  background-color: rgb(27, 27, 231);
+}
+.trtitle{
+background-color: rgb(183, 189, 194) !important;
+
+}
+.trr{
+  background-color: black;
+  color:white
+}
+
+.wid{
+  width: max-content !important;
+}
+
+.mar{
+  margin-top: 20px !important ;
+  
+}
